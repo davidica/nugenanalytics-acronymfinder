@@ -1,0 +1,615 @@
+[
+  {
+    "acronym": "AC",
+    "term": "Access Control",
+    "category": "CMMC Domain",
+    "description": "The security domain concerned with controlling who or what may access systems, information, and system resources, and what authorized users are permitted to do.",
+    "source": "NIST SP 800-171 / CMMC",
+    "sourceType": "NIST / CMMC",
+    "verified": true
+  },
+  {
+    "acronym": "APT",
+    "term": "Advanced Persistent Threat",
+    "category": "Cybersecurity",
+    "description": "A sophisticated and well-resourced adversary that uses multiple attack techniques, operates over an extended period, adapts to defensive measures, and seeks sustained access to achieve objectives such as information exfiltration or mission disruption.",
+    "source": "NIST SP 800-39 / NIST CSRC Glossary",
+    "sourceType": "NIST",
+    "verified": true
+  },
+  {
+    "acronym": "AT",
+    "term": "Awareness and Training",
+    "category": "CMMC Domain",
+    "description": "The security domain concerned with ensuring personnel understand cybersecurity risks and receive the training needed to perform their security-related responsibilities.",
+    "source": "NIST SP 800-171 / CMMC",
+    "sourceType": "NIST / CMMC",
+    "verified": true
+  },
+  {
+    "acronym": "C3PAO",
+    "term": "CMMC Third-Party Assessment Organization",
+    "category": "CMMC Organization",
+    "description": "An authorized third-party organization that conducts CMMC certification assessments.",
+    "source": "32 CFR Part 170",
+    "sourceType": "Federal Regulation",
+    "verified": true
+  },
+  {
+    "acronym": "CA",
+    "term": "Security Assessment",
+    "category": "CMMC Domain",
+    "description": "The security domain concerned with assessing security requirements and controls, identifying deficiencies, and monitoring the effectiveness of security protections.",
+    "source": "NIST SP 800-171 Rev. 2 / CMMC",
+    "sourceType": "NIST / CMMC",
+    "verified": true
+  },
+  {
+    "acronym": "CAICO",
+    "term": "CMMC Assessors and Instructors Certification Organization",
+    "category": "CMMC Organization",
+    "description": "The organization responsible for training, testing, authorizing, certifying, and recertifying CMMC certified assessors, instructors, and professionals.",
+    "source": "32 CFR 170.4 / 170.10",
+    "sourceType": "Federal Regulation",
+    "verified": true
+  },
+  {
+    "acronym": "CAGE",
+    "term": "Commercial and Government Entity",
+    "category": "GovCon",
+    "description": "A code used to identify commercial or government entities that conduct business with the federal government.",
+    "source": "FAR 52.204-16",
+    "sourceType": "Federal Regulation",
+    "verified": true
+  },
+  {
+    "acronym": "CCA",
+    "term": "CMMC-Certified Assessor",
+    "category": "CMMC Role",
+    "description": "An individual certified within the CMMC ecosystem to perform CMMC assessment activities and, when appropriately qualified, participate in Level 2 certification assessments.",
+    "source": "32 CFR Part 170",
+    "sourceType": "Federal Regulation",
+    "verified": true
+  },
+  {
+    "acronym": "CCI",
+    "term": "CMMC-Certified Instructor",
+    "category": "CMMC Role",
+    "description": "An individual certified by the CAICO to perform CMMC instructional duties for eligible CMMC certification candidates.",
+    "source": "32 CFR 170.12",
+    "sourceType": "Federal Regulation",
+    "verified": true
+  },
+  {
+    "acronym": "CCP",
+    "term": "CMMC-Certified Professional",
+    "category": "CMMC Role",
+    "description": "An individual certified within the CMMC ecosystem who has demonstrated foundational knowledge of the CMMC model and may participate in authorized assessment activities within the limits of the credential.",
+    "source": "32 CFR Part 170",
+    "sourceType": "Federal Regulation",
+    "verified": true
+  },
+  {
+    "acronym": "CFR",
+    "term": "Code of Federal Regulations",
+    "category": "Regulation",
+    "description": "The codification of the general and permanent rules published in the Federal Register by departments and agencies of the United States Government.",
+    "source": "Code of Federal Regulations",
+    "sourceType": "Federal Regulation",
+    "verified": true
+  },
+  {
+    "acronym": "CIO",
+    "term": "Chief Information Officer",
+    "category": "Technology / Leadership",
+    "description": "A senior organizational official responsible for information technology strategy, governance, resources, and oversight of information systems and related technology capabilities.",
+    "source": "Federal IT terminology",
+    "sourceType": "Federal Government",
+    "verified": true
+  },
+  {
+    "acronym": "CM",
+    "term": "Configuration Management",
+    "category": "CMMC Domain",
+    "description": "The security domain concerned with establishing and maintaining secure system configurations and controlling changes to systems, components, and software.",
+    "source": "NIST SP 800-171 / CMMC",
+    "sourceType": "NIST / CMMC",
+    "verified": true
+  },
+  {
+    "acronym": "CMMC",
+    "term": "Cybersecurity Maturity Model Certification",
+    "category": "CMMC",
+    "description": "The Department of Defense program for assessing contractor and subcontractor implementation of cybersecurity requirements applicable to Federal Contract Information and Controlled Unclassified Information.",
+    "source": "32 CFR Part 170",
+    "sourceType": "Federal Regulation / DoD",
+    "verified": true
+  },
+  {
+    "acronym": "CMMC PMO",
+    "term": "CMMC Program Management Office",
+    "category": "CMMC Organization",
+    "description": "The Department of Defense program office responsible for administration and oversight of the CMMC Program.",
+    "source": "32 CFR Part 170",
+    "sourceType": "DoD / Federal Regulation",
+    "verified": true
+  },
+  {
+    "acronym": "CNC",
+    "term": "Computerized Numerical Control",
+    "category": "Operational Technology",
+    "description": "Computer-based control of machine tools and manufacturing equipment through programmed numerical instructions.",
+    "source": "CMMC Program terminology",
+    "sourceType": "CMMC / Operational Technology",
+    "verified": true
+  },
+  {
+    "acronym": "CoPC",
+    "term": "Code of Professional Conduct",
+    "category": "CMMC",
+    "description": "The professional conduct requirements governing ethical and professional behavior for applicable participants in the CMMC assessment and certification ecosystem.",
+    "source": "32 CFR Part 170",
+    "sourceType": "Federal Regulation",
+    "verified": true
+  },
+  {
+    "acronym": "CSP",
+    "term": "Cloud Service Provider",
+    "category": "Technology",
+    "description": "An organization that delivers cloud-based computing capabilities or services to customers.",
+    "source": "FedRAMP / NIST",
+    "sourceType": "Federal Cybersecurity",
+    "verified": true
+  },
+  {
+    "acronym": "CUI",
+    "term": "Controlled Unclassified Information",
+    "category": "CMMC / Data",
+    "description": "Unclassified information that requires safeguarding or dissemination controls under applicable law, regulation, or government-wide policy.",
+    "source": "32 CFR 2002.4(h) / NIST",
+    "sourceType": "Federal Regulation / NIST",
+    "verified": true
+  },
+  {
+    "acronym": "DCMA",
+    "term": "Defense Contract Management Agency",
+    "category": "DoD / GovCon",
+    "description": "A Department of Defense agency responsible for contract administration and oversight of defense contractors throughout the acquisition lifecycle.",
+    "source": "Defense Contract Management Agency",
+    "sourceType": "DoD Agency",
+    "verified": true
+  },
+  {
+    "acronym": "DD",
+    "term": "Represents any two-character CMMC Domain acronym",
+    "category": "CMMC Model",
+    "description": "The two-character domain abbreviation appearing at the beginning of a CMMC security requirement identifier, such as AC for Access Control or IA for Identification and Authentication.",
+    "source": "32 CFR 170.14(c)(1)",
+    "sourceType": "Federal Regulation",
+    "verified": true
+  },
+  {
+    "acronym": "DFARS",
+    "term": "Defense Federal Acquisition Regulation Supplement",
+    "category": "GovCon / Regulation",
+    "description": "The Department of Defense supplement to the Federal Acquisition Regulation containing acquisition requirements specific to DoD contracts, including cybersecurity and CMMC requirements.",
+    "source": "DFARS",
+    "sourceType": "Federal Regulation",
+    "verified": true
+  },
+  {
+    "acronym": "DIB",
+    "term": "Defense Industrial Base",
+    "category": "GovCon",
+    "description": "The network of organizations, facilities, people, and resources that provide products and services supporting Department of Defense missions.",
+    "source": "Department of Defense",
+    "sourceType": "DoD",
+    "verified": true
+  },
+  {
+    "acronym": "DIBCAC",
+    "term": "Defense Industrial Base Cybersecurity Assessment Center",
+    "category": "CMMC Organization",
+    "description": "The DCMA organization that leads DoD contractor cybersecurity assessment efforts, including NIST SP 800-171 assessments and designated CMMC assessment responsibilities.",
+    "source": "DCMA DIBCAC",
+    "sourceType": "DoD / DCMA",
+    "verified": true
+  },
+  {
+    "acronym": "DoD",
+    "term": "Department of Defense",
+    "category": "Government",
+    "description": "The United States federal department responsible for national defense and the department responsible for establishing and administering the CMMC Program.",
+    "source": "U.S. Department of Defense",
+    "sourceType": "Federal Agency",
+    "verified": true
+  },
+  {
+    "acronym": "DoDI",
+    "term": "Department of Defense Instruction",
+    "category": "Government / Regulation",
+    "description": "A directive issued by the Department of Defense that provides guidance and policy for military operations and activities.",
+    "source": "Department of Defense",
+    "sourceType": "DoD",
+    "verified": true
+  },
+  {
+    "acronym": "eMASS",
+    "term": "Enterprise Mission Assurance Support Service",
+    "category": "DoD / Technology",
+    "description": "A Department of Defense cybersecurity governance and risk-management system used to support authorization, assessment, and management of cybersecurity information.",
+    "source": "Department of Defense",
+    "sourceType": "DoD Cybersecurity System",
+    "verified": true
+  },
+  {
+    "acronym": "ESP",
+    "term": "External Service Provider",
+    "category": "Technology",
+    "description": "An external organization that provides services supporting an organization's information systems, cybersecurity, or CMMC environment.",
+    "source": "CMMC Program",
+    "sourceType": "CMMC",
+    "verified": true
+  },
+  {
+    "acronym": "FAR",
+    "term": "Federal Acquisition Regulation",
+    "category": "GovCon / Regulation",
+    "description": "The primary regulation containing uniform policies and procedures used by federal executive agencies to acquire supplies and services.",
+    "source": "FAR 1.101",
+    "sourceType": "Federal Regulation",
+    "verified": true
+  },
+  {
+    "acronym": "FCI",
+    "term": "Federal Contract Information",
+    "category": "CMMC / Data",
+    "description": "Information provided by or generated for the Federal Government under a contract that is not intended for public release.",
+    "source": "FAR 4.1901 / CMMC",
+    "sourceType": "FAR / CMMC",
+    "verified": true
+  },
+  {
+    "acronym": "FedRAMP",
+    "term": "Federal Risk and Authorization Management Program",
+    "category": "Cloud / Compliance",
+    "description": "A federal program that provides a standardized approach for assessing and authorizing cloud computing products and services used by federal agencies.",
+    "source": "FedRAMP",
+    "sourceType": "Federal Program",
+    "verified": true
+  },
+  {
+    "acronym": "GFE",
+    "term": "Government Furnished Equipment",
+    "category": "GovCon",
+    "description": "Equipment furnished to a contractor by the government for use in performing a government contract.",
+    "source": "Federal Acquisition terminology",
+    "sourceType": "Federal Acquisition",
+    "verified": true
+  },
+  {
+    "acronym": "IA",
+    "term": "Identification and Authentication",
+    "category": "CMMC Domain",
+    "description": "The security domain concerned with identifying users and devices and verifying their identities before granting access to systems or information.",
+    "source": "NIST SP 800-171 / CMMC",
+    "sourceType": "NIST / CMMC",
+    "verified": true
+  },
+  {
+    "acronym": "ICS",
+    "term": "Industrial Control System",
+    "category": "Operational Technology",
+    "description": "Systems used to monitor and control industrial processes, including supervisory control, distributed control, and programmable automation technologies.",
+    "source": "NIST",
+    "sourceType": "Federal Cybersecurity",
+    "verified": true
+    
+  },
+  {
+    "acronym": "IIoT",
+    "term": "Industrial Internet of Things",
+    "category": "Operational Technology",
+    "description": "Internet-connected sensing, computing, and control devices used in industrial and operational environments.",
+    "source": "NIST / Industrial Cybersecurity terminology",
+    "sourceType": "Federal Cybersecurity",
+    "verified": true
+  },
+  {
+    "acronym": "IoT",
+    "term": "Internet of Things",
+    "category": "Technology",
+    "description": "Networks of physical devices equipped with computing, sensing, communications, or actuation capabilities that exchange data or interact with their environments.",
+    "source": "NIST",
+    "sourceType": "Federal Cybersecurity",
+    "verified": true
+  },
+  {
+    "acronym": "IR",
+    "term": "Incident Response",
+    "category": "CMMC Domain",
+    "description": "The security domain concerned with preparing for, detecting, analyzing, containing, recovering from, and reporting cybersecurity incidents.",
+    "source": "NIST SP 800-171 / CMMC",
+    "sourceType": "NIST / CMMC",
+    "verified": true
+  },
+  {
+    "acronym": "IS",
+    "term": "Information System",
+    "category": "Technology",
+    "description": "A set of information resources organized for collecting, processing, maintaining, using, sharing, disseminating, or disposing of information.",
+    "source": "NIST",
+    "sourceType": "Federal Cybersecurity",
+    "verified": true
+  },
+  {
+    "acronym": "IEC",
+    "term": "International Electrotechnical Commission",
+    "category": "Standards",
+    "description": "An international standards organization that develops and publishes standards for electrical, electronic, and related technologies.",
+    "source": "IEC",
+    "sourceType": "International Standards Organization",
+    "verified": true
+  },
+  {
+    "acronym": "ISO/IEC",
+    "term": "International Organization for Standardization/International Electrotechnical Commission",
+    "category": "Standards",
+    "description": "A designation used for standards jointly developed or published by ISO and IEC, including standards addressing information security, cybersecurity, and technology.",
+    "source": "ISO / IEC",
+    "sourceType": "International Standards",
+    "verified": true
+  },
+  {
+    "acronym": "IT",
+    "term": "Information Technology",
+    "category": "Technology",
+    "description": "Equipment, systems, software, services, and related resources used for the acquisition, storage, processing, management, transmission, control, display, or exchange of data and information.",
+    "source": "Federal Information Technology terminology",
+    "sourceType": "Federal Government",
+    "verified": true
+  },
+  {
+    "acronym": "L#",
+    "term": "CMMC Level Number",
+    "category": "CMMC Model",
+    "description": "The portion of a CMMC security requirement identifier that specifies the CMMC level associated with the requirement.",
+    "source": "32 CFR 170.14(c)(1)",
+    "sourceType": "Federal Regulation",
+    "verified": true
+  },
+  {
+    "acronym": "MA",
+    "term": "Maintenance",
+    "category": "CMMC Domain",
+    "description": "The security domain concerned with controlling, monitoring, and protecting system maintenance activities, personnel, tools, and associated access.",
+    "source": "NIST SP 800-171 / CMMC",
+    "sourceType": "NIST / CMMC",
+    "verified": true
+  },
+  {
+    "acronym": "MP",
+    "term": "Media Protection",
+    "category": "CMMC Domain",
+    "description": "The security domain concerned with protecting system media containing sensitive information throughout its use, storage, transport, sanitization, and disposal.",
+    "source": "NIST SP 800-171 / CMMC",
+    "sourceType": "NIST / CMMC",
+    "verified": true
+  },
+  {
+    "acronym": "MSSP",
+    "term": "Managed Security Service Provider",
+    "category": "Cybersecurity",
+    "description": "An external service provider that delivers ongoing cybersecurity services such as security monitoring, threat detection, incident support, vulnerability management, or security technology administration.",
+    "source": "Cybersecurity industry terminology",
+    "sourceType": "Cybersecurity",
+    "verified": true
+  },
+  {
+    "acronym": "NARA",
+  "term": "National Archives and Records Administration",
+  "category": "Government",
+  "description": "The federal agency that serves as Executive Agent for the Controlled Unclassified Information program and oversees government-wide CUI implementation.",
+  "source": "NARA CUI Program",
+  "sourceType": "Federal Agency",
+  "verified": true
+  },
+  {
+    "acronym": "NAICS",
+    "term": "North American Industry Classification System",
+    "category": "GovCon",
+    "description": "The industry classification system used by federal statistical and acquisition processes to categorize establishments according to their primary business activities.",
+    "source": "Federal statistical and acquisition terminology",
+    "sourceType": "Federal Government",
+    "verified": true
+  },
+  {
+    "acronym": "NIST",
+    "term": "National Institute of Standards and Technology",
+    "category": "Standards / Government",
+    "description": "A U.S. Department of Commerce agency that develops standards, guidelines, measurements, and technology used across government and industry, including cybersecurity guidance supporting CMMC.",
+    "source": "NIST",
+    "sourceType": "Federal Agency",
+    "verified": true
+  },
+  {
+    "acronym": "N/A",
+    "term": "Not Applicable",
+    "category": "Assessment",
+    "description": "An assessment finding indicating that a security requirement or assessment objective does not apply to the organization or assessment scope at the time of assessment.",
+    "source": "32 CFR 170.24",
+    "sourceType": "Federal Regulation",
+    "verified": true
+  },
+  {
+    "acronym": "ODP",
+  "term": "Organization-Defined Parameter",
+  "category": "NIST / Assessment",
+  "description": "A variable part of a security requirement or control that an organization must instantiate by assigning or selecting an organization-defined value.",
+  "source": "NIST SP 800-171 Rev. 3 / NIST CSRC Glossary",
+  "sourceType": "NIST",
+  "verified": true
+  },
+  {
+  "acronym": "OSA",
+  "term": "Organization Seeking Assessment",
+  "category": "CMMC Role",
+  "description": "An organization undergoing a CMMC assessment.",
+  "source": "32 CFR Part 170",
+  "sourceType": "Federal Regulation",
+  "verified": true
+},
+  {
+    "acronym": "OSC",
+    "term": "Organization Seeking Certification",
+    "category": "CMMC Role",
+    "description": "An organization seeking a CMMC certification assessment and certification.",
+    "source": "32 CFR Part 170",
+    "sourceType": "Federal Regulation",
+    "verified": true
+  },
+  {
+    "acronym": "OT",
+    "term": "Operational Technology",
+    "category": "Operational Technology",
+    "description": "Programmable systems and devices that interact with the physical environment or manage devices, processes, and events that produce changes in physical systems.",
+    "source": "NIST",
+    "sourceType": "Federal Cybersecurity",
+    "verified": true
+  },
+  {
+    "acronym": "PI",
+    "term": "Provisional Instructor",
+    "category": "CMMC Role",
+    "description": "A transitional CMMC instructor trained, tested, and designated by the CAICO to teach eligible CCP and CCA candidates during the provisional-instructor period.",
+    "source": "32 CFR 170.12",
+    "sourceType": "Federal Regulation",
+    "verified": true
+  },
+  {
+    "acronym": "PIEE",
+    "term": "Procurement Integrated Enterprise Environment",
+    "category": "GovCon / DoD",
+    "description": "A Department of Defense enterprise environment providing electronic capabilities that support procurement, contract administration, invoicing, and related acquisition processes.",
+    "source": "Department of Defense PIEE",
+    "sourceType": "DoD Acquisition System",
+    "verified": true
+  },
+  {
+    "acronym": "PII",
+  "term": "Personally Identifiable Information",
+  "category": "Data Protection",
+  "description": "Information that can be used to distinguish or trace an individual's identity, either by itself or when combined with other information linked or linkable to that individual.",
+  "source": "NIST",
+  "sourceType": "Federal Cybersecurity",
+  "verified": true
+  },
+  {
+    "acronym": "PLC",
+    "term": "Programmable Logic Controller",
+    "category": "Operational Technology",
+    "description": "A programmable industrial control device used to automate and control machines, processes, and other operational equipment.",
+    "source": "NIST SP 800-82",
+    "sourceType": "NIST / Operational Technology",
+    "verified": true
+  },
+  {
+    "acronym": "POA&M",
+    "term": "Plan of Action and Milestones",
+    "category": "CMMC / Assessment",
+    "description": "A document identifying cybersecurity deficiencies and the actions, resources, milestones, and schedule planned to correct them.",
+    "source": "32 CFR Part 170 / DFARS",
+    "sourceType": "Federal Regulation",
+    "verified": true
+  },
+  {
+    "acronym": "PRA",
+    "term": "Paperwork Reduction Act",
+    "category": "Regulation",
+    "description": "Federal law governing how federal agencies collect information from the public and intended to reduce unnecessary information-collection burden.",
+    "source": "Paperwork Reduction Act",
+    "sourceType": "Federal Law",
+    "verified": true
+  },
+  {
+    "acronym": "RM",
+    "term": "Risk Management",
+    "category": "CMMC Domain",
+    "description": "The CMMC domain concerned with identifying and evaluating risks to organizational operations, assets, and information so that appropriate responses can be established.",
+    "source": "CMMC Program / NIST",
+    "sourceType": "CMMC / NIST",
+    "verified": true
+  },
+  {
+    "acronym": "SAM",
+    "term": "System for Award Management",
+    "category": "GovCon",
+    "description": "The federal government's primary system for entity registration and contractor information used in conducting business with the government.",
+    "source": "FAR / SAM.gov",
+    "sourceType": "Federal Acquisition System",
+    "verified": true
+  },
+  {
+    "acronym": "SC",
+    "term": "System and Communications Protection",
+    "category": "CMMC Domain",
+    "description": "The security domain concerned with protecting information transmitted by systems and safeguarding system boundaries, communications, and architectural components.",
+    "source": "NIST SP 800-171 / CMMC",
+    "sourceType": "NIST / CMMC",
+    "verified": true  
+  },
+  {
+    "acronym": "SCADA",
+    "term": "Supervisory Control and Data Acquisition",
+    "category": "Operational Technology",
+    "description": "A computerized industrial control capability used to gather and process operational data and apply supervisory control, often across geographically dispersed systems.",
+    "source": "NIST SP 800-82 Rev. 3 / NIST CSRC Glossary",
+    "sourceType": "NIST / Operational Technology",
+    "verified": true
+  },
+  {
+    "acronym": "SI",
+    "term": "System and Information Integrity",
+    "category": "CMMC Domain",
+    "description": "The security domain concerned with identifying, reporting, and correcting system flaws, protecting against malicious code, and monitoring systems for security-relevant conditions.",
+    "source": "NIST SP 800-171 / CMMC",
+    "sourceType": "NIST / CMMC",
+    "verified": true
+  },
+  {
+    "acronym": "SIEM",
+    "term": "Security Information and Event Management",
+    "category": "Cybersecurity",
+    "description": "Security technology that centralizes collection and analysis of logs and security-event information to support monitoring, detection, investigation, and response activities.",
+    "source": "NIST CSRC Glossary / NIST SP 800-92",
+    "sourceType": "NIST / Cybersecurity",
+    "verified": true
+  },
+  {
+    "acronym": "SP",
+    "term": "Special Publication",
+    "category": "NIST",
+    "description": "A NIST publication series used to issue technical guidance, recommendations, and cybersecurity requirements, including the SP 800-series.",
+    "source": "NIST",
+    "sourceType": "Federal Standards",
+    "verified": true
+  },
+  {
+    "acronym": "SPD",
+    "term": "Security Protection Data",
+    "category": "Cybersecurity / Data",
+    "description": "Security-related information used to protect systems, assets, or information and support cybersecurity functions within the applicable CMMC context.",
+    "source": "CMMC Program terminology",
+    "sourceType": "CMMC",
+    "verified": true
+  },
+  {
+    "acronym": "SPRS",
+    "term": "Supplier Performance Risk System",
+    "category": "GovCon / Assessment",
+    "description": "A Department of Defense system used to maintain and provide supplier performance and risk information, including cybersecurity assessment information used in DoD acquisition processes.",
+    "source": "DFARS",
+    "sourceType": "DoD / DFARS",
+    "verified": true
+  }
+]

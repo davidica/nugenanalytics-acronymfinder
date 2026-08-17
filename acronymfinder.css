@@ -1,0 +1,657 @@
+/* ================================================================
+   CMMC Acronym Finder
+   File: acronymfinder.css
+   Purpose: Primary styling for the Acronym Finder utility
+   ================================================================ */
+
+
+/* ----------------------------------------------------------------
+   Global Reset
+   ---------------------------------------------------------------- */
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* ----------------------------------------------------------------
+   Theme Variables
+   ---------------------------------------------------------------- */
+
+:root {
+    --bg: #f5f7fb;
+    --surface: #ffffff;
+    --text: #122033;
+    --muted: #64748b;
+    --line: #dbe3ed;
+    --accent: #185bd8;
+}
+
+
+/* Dark Mode */
+
+html[data-theme="dark"] {
+    --bg: #0b1220;
+    --surface: #111b2d;
+    --text: #eff6ff;
+    --muted: #9babc1;
+    --line: #293750;
+    --accent: #76a7ff;
+}
+
+
+/* ----------------------------------------------------------------
+   Base Page
+   ---------------------------------------------------------------- */
+
+body {
+    margin: 0;
+
+    background: var(--bg);
+    color: var(--text);
+
+    font-family:
+        Inter,
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+
+    line-height: 1.5;
+}
+
+
+/* ----------------------------------------------------------------
+   Shared Page Width
+   ---------------------------------------------------------------- */
+
+.wrap {
+    width: min(
+        1100px,
+        calc(100% - 32px)
+    );
+
+    margin: 0 auto;
+}
+
+
+/* ----------------------------------------------------------------
+   Header
+   ---------------------------------------------------------------- */
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 4;
+
+    background: var(--surface);
+
+    border-bottom:
+        1px solid var(--line);
+}
+
+
+.nav {
+    height: 70px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.nav strong,
+.nav small {
+    display: block;
+}
+
+
+.nav small {
+    color: var(--muted);
+}
+
+
+/* ----------------------------------------------------------------
+   Buttons / Inputs
+   ---------------------------------------------------------------- */
+
+button,
+select,
+input {
+    font: inherit;
+}
+
+
+.nav button,
+.search button {
+    border:
+        1px solid var(--line);
+
+    background:
+        var(--surface);
+
+    color:
+        var(--text);
+
+    border-radius:
+        10px;
+
+    padding:
+        9px 12px;
+
+    cursor:
+        pointer;
+}
+
+
+/* ----------------------------------------------------------------
+   Hero Section
+   ---------------------------------------------------------------- */
+
+.hero {
+    padding:
+        65px 0 45px;
+
+    background:
+        linear-gradient(
+            180deg,
+            var(--surface),
+            var(--bg)
+        );
+
+    border-bottom:
+        1px solid var(--line);
+}
+
+
+.eyebrow {
+    color:
+        var(--accent);
+
+    font-weight:
+        800;
+
+    letter-spacing:
+        0.12em;
+
+    font-size:
+        0.78rem;
+}
+
+
+.hero h1 {
+    margin:
+        8px 0;
+
+    font-size:
+        clamp(
+            2.6rem,
+            7vw,
+            5rem
+        );
+
+    line-height:
+        0.98;
+
+    letter-spacing:
+        -0.05em;
+}
+
+
+/*
+   Intentional visual emphasis:
+
+   Decode the acronym.
+   Understand the mission.
+*/
+
+.hero-accent {
+    color:
+        var(--accent);
+}
+
+
+.lede {
+    max-width:
+        720px;
+
+    color:
+        var(--muted);
+
+    font-size:
+        1.1rem;
+}
+
+
+/* ----------------------------------------------------------------
+   Search
+   ---------------------------------------------------------------- */
+
+.search {
+    max-width:
+        800px;
+
+    display:
+        grid;
+
+    grid-template-columns:
+        auto 1fr auto;
+
+    gap:
+        12px;
+
+    align-items:
+        center;
+
+    background:
+        var(--surface);
+
+    border:
+        1px solid var(--line);
+
+    border-radius:
+        16px;
+
+    padding:
+        9px 10px 9px 18px;
+}
+
+
+.search input {
+    width:
+        100%;
+
+    padding:
+        9px;
+
+    border:
+        0;
+
+    outline:
+        0;
+
+    background:
+        transparent;
+
+    color:
+        var(--text);
+}
+
+
+.meta {
+    color:
+        var(--muted);
+}
+
+
+/* ----------------------------------------------------------------
+   Filters
+   ---------------------------------------------------------------- */
+
+.filters {
+    padding:
+        25px 0;
+
+    display:
+        flex;
+
+    gap:
+        14px;
+
+    justify-content:
+        space-between;
+
+    align-items:
+        flex-start;
+}
+
+
+.filters > div {
+    display:
+        flex;
+
+    flex-wrap:
+        wrap;
+
+    gap:
+        5px;
+}
+
+
+/* ----------------------------------------------------------------
+   Alphabet Filter
+   ---------------------------------------------------------------- */
+
+.letter {
+    border:
+        1px solid var(--line);
+
+    background:
+        var(--surface);
+
+    color:
+        var(--text);
+
+    border-radius:
+        8px;
+
+    padding:
+        7px 9px;
+
+    cursor:
+        pointer;
+}
+
+
+.letter.active {
+    background:
+        var(--accent);
+
+    color:
+        #ffffff;
+
+    border-color:
+        var(--accent);
+}
+
+
+/* ----------------------------------------------------------------
+   Category Filter
+   ---------------------------------------------------------------- */
+
+select {
+    border:
+        1px solid var(--line);
+
+    background:
+        var(--surface);
+
+    color:
+        var(--text);
+
+    border-radius:
+        10px;
+
+    padding:
+        9px;
+}
+
+
+/* ----------------------------------------------------------------
+   Acronym Results
+   ---------------------------------------------------------------- */
+
+.grid {
+    display:
+        grid;
+
+    grid-template-columns:
+        repeat(
+            2,
+            minmax(0, 1fr)
+        );
+
+    gap:
+        14px;
+
+    padding-bottom:
+        65px;
+}
+
+
+.card {
+    background:
+        var(--surface);
+
+    border:
+        1px solid var(--line);
+
+    border-radius:
+        16px;
+
+    padding:
+        22px;
+}
+
+
+.card .top {
+    display:
+        flex;
+
+    gap:
+        18px;
+}
+
+
+.acro {
+    min-width:
+        90px;
+
+    color:
+        var(--accent);
+
+    font-weight:
+        900;
+
+    font-size:
+        1.35rem;
+}
+
+
+.term {
+    font-weight:
+        700;
+}
+
+
+/* ----------------------------------------------------------------
+   Category Tag
+   ---------------------------------------------------------------- */
+
+.tag {
+    display:
+        inline-block;
+
+    margin-top:
+        10px;
+
+    padding:
+        4px 8px;
+
+    background:
+        var(--bg);
+
+    border-radius:
+        999px;
+
+    color:
+        var(--muted);
+
+    font-size:
+        0.76rem;
+}
+
+
+/* ----------------------------------------------------------------
+   Data Review Warning
+   ---------------------------------------------------------------- */
+
+.review {
+    margin-top:
+        8px;
+
+    color:
+        #b26a00;
+
+    font-size:
+        0.8rem;
+
+    font-weight:
+        700;
+}
+
+
+/* ----------------------------------------------------------------
+   Empty Search Result
+   ---------------------------------------------------------------- */
+
+.empty {
+    padding:
+        60px;
+
+    text-align:
+        center;
+
+    color:
+        var(--muted);
+}
+
+
+/* ----------------------------------------------------------------
+   Footer
+   ---------------------------------------------------------------- */
+
+footer {
+    padding:
+        28px 0;
+
+    background:
+        var(--surface);
+
+    border-top:
+        1px solid var(--line);
+
+    color:
+        var(--muted);
+
+    font-size:
+        0.85rem;
+}
+
+
+/* ----------------------------------------------------------------
+   Responsive Layout
+   ---------------------------------------------------------------- */
+
+@media (
+    max-width: 760px
+) {
+
+    .filters {
+        flex-direction:
+            column;
+    }
+
+
+    .filters select {
+        width:
+            100%;
+    }
+
+
+    .grid {
+        grid-template-columns:
+            1fr;
+    }
+
+
+    .nav small {
+        display:
+            none;
+    }
+}
+
+/* ----------------------------------------------------------------
+   Enriched Acronym Metadata
+   ---------------------------------------------------------------- */
+
+.card-content {
+    flex: 1;
+}
+
+.description {
+    margin:
+        14px 0 0;
+
+    color:
+        var(--muted);
+
+    font-size:
+        0.94rem;
+
+    line-height:
+        1.55;
+}
+
+.source-block {
+    margin-top:
+        14px;
+
+    padding-top:
+        12px;
+
+    border-top:
+        1px solid var(--line);
+
+    font-size:
+        0.82rem;
+}
+
+.source {
+    color:
+        var(--muted);
+}
+
+.source strong {
+    color:
+        var(--text);
+}
+
+.source-meta {
+    display:
+        flex;
+
+    flex-wrap:
+        wrap;
+
+    gap:
+        8px;
+
+    margin-top:
+        8px;
+}
+
+.source-type,
+.verified {
+    display:
+        inline-block;
+
+    padding:
+        4px 8px;
+
+    border-radius:
+        999px;
+
+    font-size:
+        0.74rem;
+
+    font-weight:
+        700;
+}
+
+.source-type {
+    background:
+        var(--bg);
+
+    color:
+        var(--muted);
+}
+
+.verified {
+    background:
+        rgba(24, 91, 216, 0.10);
+
+    color:
+        var(--accent);
+}

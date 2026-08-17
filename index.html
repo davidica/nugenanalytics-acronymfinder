@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1"
+    >
+
+    <meta
+        name="description"
+        content="Search CMMC and federal cybersecurity acronyms."
+    >
+
+    <title>CMMC Acronym Finder</title>
+
+    <link
+        rel="stylesheet"
+        href="acronymfinder.css"
+    >
+</head>
+
+<body>
+
+    <header>
+        <div class="wrap nav">
+
+            <div>
+                <strong>CMMC Acronym Finder</strong>
+
+                <small>
+                    Federal cybersecurity, without the alphabet soup.
+                </small>
+            </div>
+
+            <!-- Dark / light mode button -->
+            <button
+                id="theme"
+                type="button"
+                aria-label="Toggle light and dark mode"
+                title="Toggle light and dark mode"
+            >
+                ☾
+            </button>
+
+        </div>
+    </header>
+
+
+    <main>
+
+        <section class="hero">
+
+            <div class="wrap">
+
+                <p class="eyebrow">
+                    CMMC • NIST • DFARS • GovCon
+                </p>
+
+                <h1>
+                    <span class="hero-accent">Decode</span>
+                    the acronym.<br>
+                    Understand the
+                    <span class="hero-accent">mission</span>.
+                </h1>
+
+                <p class="lede">
+                    Fast search across CMMC, federal cybersecurity,
+                    acquisition, and operational-technology terminology.
+                </p>
+
+
+                <div class="search">
+
+                    <span aria-hidden="true">
+                        ⌕
+                    </span>
+
+                    <input
+                        id="q"
+                        type="search"
+                        placeholder="Try CUI, C3PAO, POA&M, FedRAMP..."
+                        aria-label="Search acronyms"
+                        autofocus
+                    >
+
+                    <button
+                        id="clear"
+                        type="button"
+                    >
+                        Clear
+                    </button>
+
+                </div>
+
+
+                <p class="meta">
+                    <strong id="count">0</strong>
+                    terms
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <section class="wrap filters">
+
+            <!-- JavaScript inserts A-Z buttons here -->
+            <div
+                id="letters"
+                aria-label="Filter acronyms alphabetically"
+            ></div>
+
+            <!-- JavaScript inserts categories here -->
+            <select
+                id="category"
+                aria-label="Filter acronyms by category"
+            >
+                <option value="">
+                    All categories
+                </option>
+            </select>
+
+        </section>
+
+
+        <section class="wrap">
+
+            <div
+                id="empty"
+                class="empty"
+                hidden
+            >
+                No match found.
+            </div>
+
+            <!-- JavaScript inserts acronym cards here -->
+            <div
+                id="results"
+                class="grid"
+            ></div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div class="wrap">
+
+            <strong>
+                CMMC Acronym Finder
+            </strong>
+
+            <p>
+                Educational reference utility. Verify terminology
+                against current authoritative sources before making
+                compliance decisions.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="acronymfinder.js"></script>
+
+</body>
+
+</html>
