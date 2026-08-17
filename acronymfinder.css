@@ -655,3 +655,28 @@ footer {
     color:
         var(--accent);
 }
+
+/* NugenAnalytics branding */
+
+.header-copy {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.header-copy .brand {
+    display: block;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+}
+
+.header-copy strong {
+    display: block;
+}
+
+.header-copy > small:not(.brand) {
+    display: block;
+}

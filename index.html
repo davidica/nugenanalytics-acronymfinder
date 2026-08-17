@@ -2,19 +2,24 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
 
     <meta
         name="viewport"
-        content="width=device-width, initial-scale=1"
+        content="width=device-width, initial-scale=1.0"
     >
 
     <meta
         name="description"
-        content="Search CMMC and federal cybersecurity acronyms."
+        content="Search and decode CMMC, NIST, DFARS, cybersecurity, and federal contracting acronyms."
     >
 
-    <title>CMMC Acronym Finder</title>
+    <meta
+        name="author"
+        content="NugenAnalytics"
+    >
+
+    <title>CMMC Acronym Finder | NugenAnalytics</title>
 
     <link
         rel="stylesheet"
@@ -27,15 +32,22 @@
     <header>
         <div class="wrap nav">
 
-            <div>
-                <strong>CMMC Acronym Finder</strong>
+            <div class="header-copy">
+
+                <small class="brand">
+                    NugenAnalytics
+                </small>
+
+                <strong>
+                    CMMC Acronym Finder
+                </strong>
 
                 <small>
                     Federal cybersecurity, without the alphabet soup.
                 </small>
+
             </div>
 
-            <!-- Dark / light mode button -->
             <button
                 id="theme"
                 type="button"
@@ -81,7 +93,7 @@
                     <input
                         id="q"
                         type="search"
-                        placeholder="Try CUI, C3PAO, POA&M, FedRAMP..."
+                        placeholder="Try CUI, C3PAO, POA&amp;M, FedRAMP..."
                         aria-label="Search acronyms"
                         autofocus
                     >
@@ -108,13 +120,11 @@
 
         <section class="wrap filters">
 
-            <!-- JavaScript inserts A-Z buttons here -->
             <div
                 id="letters"
                 aria-label="Filter acronyms alphabetically"
             ></div>
 
-            <!-- JavaScript inserts categories here -->
             <select
                 id="category"
                 aria-label="Filter acronyms by category"
@@ -137,7 +147,6 @@
                 No match found.
             </div>
 
-            <!-- JavaScript inserts acronym cards here -->
             <div
                 id="results"
                 class="grid"
@@ -149,21 +158,19 @@
 
 
     <footer>
-
         <div class="wrap">
 
             <strong>
-                CMMC Acronym Finder
+                CMMC Acronym Finder by NugenAnalytics
             </strong>
 
             <p>
-                Educational reference utility. Verify terminology
-                against current authoritative sources before making
-                compliance decisions.
+                Independent reference utility.
+                Not affiliated with or endorsed by the
+                U.S. Department of Defense.
             </p>
 
         </div>
-
     </footer>
 
 
