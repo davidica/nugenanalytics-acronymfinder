@@ -1,0 +1,38 @@
+# =====================================================================
+# NugenAnalytics AcronymFinder
+# Git Ignore Rules
+# =====================================================================
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# PowerShell temporary/output files
+*.log
+
+# Repository execution logs
+11_Automation/Logs/*
+12_Audit_and_History/01_Execution_Logs/*
+
+# Local backup content
+13_Backups/*
+
+# Preserve controlled backup directory
+!13_Backups/Before_Major_Release/
+!13_Backups/Before_Major_Release/.gitkeep
