@@ -521,6 +521,8 @@ function toggleTheme() {
             : '☾';
 }
 
+let searchAnalyticsTimer;
+
 elements.search.addEventListener(
     'input',
     (event) => {
@@ -529,6 +531,29 @@ elements.search.addEventListener(
             event.target.value;
 
         renderResults();
+
+        clearTimeout(searchAnalyticsTimer);
+
+        searchAnalyticsTimer = setTimeout(
+            () => {
+
+                const searchTerm =
+                    getTelemetrySearchTerm(
+                        state.query
+                    );
+
+                if (searchTerm) {
+                    trackEvent(
+                        'search',
+                        {
+                            search_term:
+                                searchTerm
+                        }
+                    );
+                }
+            },
+            800
+        );
     }
 );
 
